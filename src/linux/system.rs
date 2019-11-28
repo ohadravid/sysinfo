@@ -539,7 +539,6 @@ fn _get_process_data(
                         p.gid = g;
                     }
                 }
-                assert!(set_uid && set_gid);
             }
 
             if proc_list.pid != 0 {
